@@ -3,7 +3,7 @@ import java.lang.RuntimeException
 fun main(args: Array<String>) {
 
     var ex = try {
-//        throw RuntimeException()
+        throw RuntimeException()
         println("try")
         11
     } catch (e: RuntimeException){

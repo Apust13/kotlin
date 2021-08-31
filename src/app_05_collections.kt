@@ -5,7 +5,7 @@ fun main(args: Array<String>) {
     var list = listOf("One","Two", "Three")
     var list2 = listOf(1,2, 3)
 
-    println(list.max())
+    println(list.maxOrNull())
     println(list2.average())
 
     var set = list.plus(list).toSet()
